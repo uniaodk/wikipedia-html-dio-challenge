@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	min-width: 1000px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+section {
+	font-size: 1.5rem;
+	margin-bottom: 4rem;
+}
+
+section h2 {
+	margin-bottom: 2rem;
+}
+
+figure {
+	text-align: center;
+}
+
+summary {
+	margin-bottom: 1rem;
+}
