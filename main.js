@@ -20,7 +20,7 @@ function buildTemplateAnchors(textPage) {
 (async function () {
 	const params = new URLSearchParams(window.location.search);
 	const serie = params.get("serie") || 'arrow';
-	const textPage = await getTextPage(`/pages/${serie}.html`);
+	const textPage = await getTextPage(`./pages/${serie}.html`);
 	anchors.innerHTML = buildTemplateAnchors(textPage);
 	article.innerHTML = textPage;
 })();
